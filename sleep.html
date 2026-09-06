@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLEEP</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <h2>Fitness Tracker</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Dashboard🏠</a></li>
+                    <li><a href=task.html">Task✅</a></li>
+                    <li><a href="habits.html">Habits🏃</a></li>
+                    <li><a href="water.html">Water💧</a></li>
+                    <li><a href="sleep.html" class="active">Sleep😴</a></li>
+                    <li><a href="quotes.html">Quotes💭</a></li>
+                    <li><a href="summary.html">Summary📊</a></li>
+                </ul>
+            </nav>
+        </aside>
+       <main class="main-content">
+            <h1>Sleep Tracker</h1>
+            <section class="sleep-record-section">
+                <h2>Today's Sleep Record</h2>
+                <label for="sleep-hours">Sleep Hours</label>
+                <input type="number" id="sleep-hours" placeholder="Enter sleep hours" step="0.1">
+                <button id="save-sleep-btn">Save Sleep</button>
+            </section>
+            <section class="today-sleep-section">
+                <h2>Todays's Sleep</h2>
+                <p id="today-sleep">0 hrs </p>
+            </section>
+            <section class="sleep-summary-section">
+                <h2>Weekly Sleep</h2>
+                <p>Total Sleep: <span id="total-sleep">0 hrs</span></p>
+                <p>Average Sleep: <span id="average-sleep">0 hrs</span></p>
+            </section>
+            <section class="sleep-graph-section">
+                <h2>Weekly Sleep Graph</h2>
+
+               <div id="sleep-graph">
+
+                </div>
+            </section>
+            
+               
+
+                
+
+            
+        </main>
+    </div>
+</body>
+</html>
